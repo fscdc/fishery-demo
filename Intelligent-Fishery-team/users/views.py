@@ -15,6 +15,7 @@ class Neo4jConnection:
             result = session.run(query, parameters)
             return [record for record in result]
 # test
+# 项目管理测试
 # 配置你的Neo4j数据库连接
 neo4j_conn = Neo4jConnection(uri="bolt://localhost:7687",user="neo4j",password="12345678")
 
