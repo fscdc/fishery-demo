@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-
+# test
 urlpatterns = [
     path('users/index/', views.index, name='index'),
     path('users/edit/<str:username>/', views.edit, name='edit'),
